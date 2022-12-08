@@ -1,38 +1,119 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.direction {
+  flex-direction: column;
+}
+.logo1 {
+  position: absolute;
+  width: 164.21px;
+  height: 60px;
+  left: 56px;
+  top: 62px;
+}
+.photo {
+  position: absolute;
+  width: 612px;
+  height: 437px;
+  left: 128px;
+  top: 110px;
+}
+.form {
+  position: absolute;
+  width: 516px;
+  height: 630px;
+  left: 889px;
+  top: 19px;
+  background: #ffffff;
+  box-shadow: 1px -10px 25px rgba(201, 201, 201, 0.25),
+    -1px 10px 25px rgba(147, 147, 147, 0.25);
+}
+
+.heading {
+  margin-top: 95px;
+}
+.firstinput {
+  margin-top: 95px;
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid rgb(146, 131, 131);
+}
+.textlabel {
+  margin-top: 98px;
+  width: 200px;
+  margin-left: 1px;
+}
+
+.phoneinput {
+  margin-top: 95px;
+  width: 200px;
+  border: none;
+  padding: 7px;
+  border-bottom: 2px solid rgb(146, 131, 131);
+}
+.label {
+  margin-top: 95px;
+  width: 70px;
+  margin-left: 25px;
+  border: none;
+  border-bottom: 2px solid rgb(146, 131, 131);
+  padding: 6px;
+}
+
+.phonesecondinput {
+  margin-top: 55px;
+  width: 240px;
+  border: none;
+  border-bottom: 2px solid rgb(146, 131, 131);
+}
+.secondinput {
+  margin-top: 55px;
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid rgb(146, 131, 131);
+}
+.button {
+  margin-top: 55px;
+  margin-left: 70px;
+  width: 120px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: rgb(77, 182, 231);
+  border: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.lasttext {
+  margin-top: 95px;
+  margin-left: 72px;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.link {
+  font-size: 1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo1 {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .photo {
+    display: none;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */

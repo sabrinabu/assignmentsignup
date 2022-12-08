@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 85px;
+    left: 535px;
+    top: 139px;
+    background-color: rgb(77, 182, 231);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 42px;
+    
+}
+.logo {
+  position: absolute;
+  width: 164.21px;
+  height: 60px;
+  left: 56px;
+  top: 62px;
+}
+
